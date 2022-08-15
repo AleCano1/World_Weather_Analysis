@@ -26,6 +26,9 @@ With this information was created a gmap with te marker layer map with a pop-up 
 
 <img width="662" alt="WeatherPy_vacation_map" src="https://user-images.githubusercontent.com/96165500/184743119-70613fc5-3671-421a-8552-3c5d7b3a2e08.png">
 
+
+<img width="571" alt="WeatherPy_travel_map" src="https://user-images.githubusercontent.com/96165500/184755421-0fbfdfcf-9c89-47b9-91de-1949ca713470.png">
+
 ## Summary
 
 For more information about OpenWeather APIs visit: https://openweathermap.org/api
