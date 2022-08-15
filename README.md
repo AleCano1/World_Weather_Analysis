@@ -1,4 +1,4 @@
-# World_Weather_Analysi
+# World_Weather_Analysis
 PlanMyTrip desired to collect and analyze weather data across cities worldwide with the objective of recommend ideal hotels based on the climatic preferences of the clients. PlanMyTrip  is a company of leading travel technology specializing in Internet-related services in the hotel and lodging industry.
 
 ## Overview of Project 
@@ -21,8 +21,11 @@ To achive the puprose of this project, there were a input to prompt the user to 
     min_temp = float(input("What is the minimum temperature you would like for your trip? "))
     max_temp = float(input("What is the maximum temperature you would like for your trip? "))
     
-After the data was filtered based on the criteria, was possible to use google API, to call a hotel Name with a spesific parameters, as 5000 meters of radius, specifiying the latitud and longitude of the cities DAtaFRame created before. For this new information there were created a new DataFrame with name of the Hotel added.
-With this information was creted a gmap 
+After the data was filtered based on the criteria, was possible to use google API, to call a hotel Name with a specific parameters, as 5000 meters of radius, specifiying the latitud and longitude of the cities DataFrame created before. For this new information there were created a new DataFrame with name of the Hotel added.
+With this information was created a gmap with te marker layer map with a pop-up marker for each city, holfing this information: Hotel Name, City Name, Country, Current Description, and Max temp °F.   
 
+<img width="662" alt="WeatherPy_vacation_map" src="https://user-images.githubusercontent.com/96165500/184743119-70613fc5-3671-421a-8552-3c5d7b3a2e08.png">
 
 ## Summary
+
+For more information about OpenWeather APIs visit: https://openweathermap.org/api
